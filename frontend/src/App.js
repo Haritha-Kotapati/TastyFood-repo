@@ -25,7 +25,7 @@ function App() {
     // Check if the user is already authenticated when the app loads
     const token = localStorage.getItem('authToken'); // Replace with your actual token storage method
 
-    fetch('http://localhost:4000/api/loginuser', {
+    fetch('https://tasty-food-repo.vercel.app/api/loginuser', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${token}`,

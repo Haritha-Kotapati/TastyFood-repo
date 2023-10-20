@@ -14,7 +14,7 @@ export default function Menu() {
     // };
 
     const loadData = async () => {
-        let response = await fetch("http://localhost:4000/api/fooddata", {
+        let response = await fetch("https://tasty-food-repo.vercel.app/api/fooddata", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
