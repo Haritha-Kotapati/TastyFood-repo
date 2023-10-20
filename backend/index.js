@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // Allow requests from 'https://food-menu-cms.vercel.app'
 const corsOptions = {
-    origin: 'https://tasty-food-repo-wty3.vercel.app/',
+    origin: 'https://tasty-food-repo-wty3.vercel.app',
   };
 app.use(cors(corsOptions));
 
