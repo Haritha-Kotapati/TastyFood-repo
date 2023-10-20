@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {"handle":"filesystem"},
+        {"src": "/api/fooddata", "dest": "/api/fooddata.js"},
+        { "src": "/api/loginuser", "dest": "/api/loginuser.js" },
+        { "src": "/api/createuser", "dest": "/api/createuser.js" },
+        
+        { "src": "(/.*)", "dest": "/index.js" }
+    ]
+}

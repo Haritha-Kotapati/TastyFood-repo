@@ -1,0 +1,50 @@
+/* About.css */
+
+/* Page header styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Section heading styles */
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Paragraph text styles */
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Contact information styles */
+  address {
+    font-style: normal;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Center content within the container */
+  .container > * {
+    text-align: center;
+  }
+  
+  /* Add a subtle border to the page content */
+  .container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
