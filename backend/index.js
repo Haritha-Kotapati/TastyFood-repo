@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 const app = express()
 const port = 4000
 const mongoDB = require("./db")
@@ -17,18 +17,6 @@ const corsOptions = {
     origin: 'https://tasty-food-repo-wty3.vercel.app',
   };
 app.use(cors(corsOptions));
-
-
-// app.use((req,res,next) => {
-//     res.header("Access-Control-Allow-Origin","https://food-menu-cms.vercel.app");
-//     res.header(
-//         "Access-Control-Allow-Headers",
-//         "Origin, X-Requested-With, Content-Type, Accept"
-//     );
-//     next();
-// });
-
-//Use bodyparsing middleware;
 
 app.use(express.json())
 
